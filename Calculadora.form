@@ -37,12 +37,12 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="83815" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="83815" class="javax.swing.JButton" binding="Boton10">
         <constraints>
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Potencia3"/>
         </properties>
       </component>
       <component id="a2be" class="javax.swing.JButton" binding="button3" default-binding="true">
@@ -61,12 +61,12 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="fe8f8" class="javax.swing.JButton" binding="button5" default-binding="true">
+      <component id="fe8f8" class="javax.swing.JButton" binding="Boton9">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Potencia2"/>
         </properties>
       </component>
       <component id="66b34" class="javax.swing.JButton" binding="button6" default-binding="true">
@@ -101,12 +101,12 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="a485f" class="javax.swing.JButton" binding="button9" default-binding="true">
+      <component id="a485f" class="javax.swing.JButton" binding="Boton11">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Potencia-n"/>
         </properties>
       </component>
       <component id="c7ed7" class="javax.swing.JButton" binding="button10" default-binding="true">
@@ -173,12 +173,12 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="680c7" class="javax.swing.JButton" binding="button15" default-binding="true">
+      <component id="680c7" class="javax.swing.JButton" binding="Boton12">
         <constraints>
           <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="PI"/>
         </properties>
       </component>
     </children>
