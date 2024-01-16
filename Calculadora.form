@@ -3,11 +3,15 @@
   <grid id="27dc6" binding="menuPrincipal" layout-manager="GridLayoutManager" row-count="8" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="596" height="567"/>
+      <xy x="20" y="20" width="998" height="689"/>
     </constraints>
     <properties>
+      <background color="-6244770"/>
       <focusTraversalPolicyProvider value="false"/>
       <font size="14"/>
+      <minimumSize width="500" height="500"/>
+      <opaque value="true"/>
+      <preferredSize width="500" height="500"/>
     </properties>
     <border type="none"/>
     <children>
@@ -22,17 +26,20 @@
       </component>
       <component id="49137" class="javax.swing.JLabel" binding="numero1Lbl">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <foreground color="-16053493"/>
           <text value="INGRESE"/>
         </properties>
       </component>
       <component id="3fbbb" class="javax.swing.JLabel" binding="numero2Lbl">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-6244770"/>
+          <foreground color="-16053493"/>
           <text value="INGRESE"/>
         </properties>
       </component>
@@ -126,7 +133,7 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="e3838" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="e3838" class="javax.swing.JButton">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -134,53 +141,60 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="af7bd" class="javax.swing.JButton" default-binding="true">
+      <component id="af7bd" class="javax.swing.JButton" binding="boton_potencia">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="X^n"/>
         </properties>
       </component>
-      <component id="76423" class="javax.swing.JButton" default-binding="true">
+      <component id="76423" class="javax.swing.JButton" binding="boton_raiz">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <enabled value="true"/>
+          <hideActionText value="false"/>
+          <text value="√"/>
         </properties>
       </component>
-      <component id="ac578" class="javax.swing.JButton" default-binding="true">
+      <component id="ac578" class="javax.swing.JButton" binding="boton_porcentaje">
         <constraints>
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="%"/>
         </properties>
       </component>
-      <component id="90a21" class="javax.swing.JButton" default-binding="true">
+      <component id="90a21" class="javax.swing.JButton" binding="boton_random">
         <constraints>
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="RANDOM"/>
         </properties>
       </component>
-      <component id="724f1" class="javax.swing.JTextField" binding="numero1textField">
+      <component id="724f1" class="javax.swing.JTextField" binding="numero_uno_ingresado">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-721665"/>
+        </properties>
       </component>
-      <component id="3b895" class="javax.swing.JTextField" binding="numero2textField">
+      <component id="3b895" class="javax.swing.JTextField" binding="numero_dos_ingresado">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="2" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-721665"/>
+          <foreground color="-16053493"/>
+        </properties>
       </component>
       <component id="9cfad" class="javax.swing.JLabel" binding="error">
         <constraints>
