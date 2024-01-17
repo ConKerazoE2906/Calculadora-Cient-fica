@@ -43,20 +43,20 @@
           <text value="INGRESE"/>
         </properties>
       </component>
-      <component id="900fb" class="javax.swing.JButton" binding="button4" default-binding="true">
+      <component id="900fb" class="javax.swing.JButton" binding="boton_seno">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Seno"/>
         </properties>
       </component>
-      <component id="f1793" class="javax.swing.JButton" binding="button7" default-binding="true">
+      <component id="f1793" class="javax.swing.JButton" binding="boton_coseno">
         <constraints>
           <grid row="5" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Coseno"/>
         </properties>
       </component>
       <component id="61fe9" class="javax.swing.JButton" binding="Botonresta">
@@ -117,20 +117,20 @@
           <text value="Button"/>
         </properties>
       </component>
-      <component id="2cda7" class="javax.swing.JButton" binding="button15" default-binding="true">
+      <component id="2cda7" class="javax.swing.JButton" binding="boton_tangente">
         <constraints>
           <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Tangente"/>
         </properties>
       </component>
-      <component id="90c" class="javax.swing.JButton" binding="button16" default-binding="true">
+      <component id="90c" class="javax.swing.JButton" binding="boton_pi">
         <constraints>
           <grid row="7" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="pi"/>
         </properties>
       </component>
       <component id="e3838" class="javax.swing.JButton">

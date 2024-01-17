@@ -4,16 +4,16 @@ import java.awt.event.ActionListener;
 
 public class Calculadora {
     private JButton Botonresta;
-    private JButton button4;
+    private JButton boton_seno;
     private JButton button5;
-    private JButton button7;
+    private JButton boton_coseno;
     private JButton Botonsuma;
     private JButton Botonmultiplicacion;
     private JButton Botondivision;
     private JButton button6;
     private JButton button8;
-    private JButton button15;
-    private JButton button16;
+    private JButton boton_tangente;
+    private JButton boton_pi;
     JPanel menuPrincipal;
     private JLabel resultadoLbl;
     private JTextField numero_dos_ingresado;
