@@ -143,6 +143,7 @@ public class Calculadora {
                         resultadoLbl.setText(reslbl);
                     }
                     else{
+                        resultadoLbl.setText("");
                         error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
                     }
                     error.setText("");
@@ -187,6 +188,7 @@ public class Calculadora {
                     error.setText("");
                 }
                 catch (Exception exp) {
+                    resultadoLbl.setText("");
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
@@ -226,6 +228,7 @@ public class Calculadora {
                     error.setText("");
                 }
                 catch (Exception exp) {
+                    resultadoLbl.setText("");
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
@@ -265,6 +268,7 @@ public class Calculadora {
                     error.setText("");
                 }
                 catch (Exception exp) {
+                    resultadoLbl.setText("");
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
