@@ -111,5 +111,20 @@ public class Calculadora {
                 resultadoLbl.setText("El numero aleatorio que sea generado es: "+Double.toString(resultado_random));
             }
         });
+        boton_pi.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e){
+                int num1=Integer.parseInt(numero_uno_ingresado.getText());
+                int num2=Integer.parseInt(numero_dos_ingresado.getText());
+                
+                resultadoLbl.setText("Pi es:");
+            }
+        });
+        boton_seno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                double radianes=(Double.parseDouble(numero_uno_ingresado.getText())) * (3.14159265358/ 180); //Conversión de grados a Radianes
+            }
+        });
     }
 }
