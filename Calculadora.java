@@ -145,7 +145,9 @@ public class Calculadora {
                     else{
                         error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
                     }
-                } catch (Exception exp) {
+                    error.setText("");
+                }
+                catch (Exception exp) {
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
@@ -182,6 +184,7 @@ public class Calculadora {
                     else{
                         error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
                     }
+                    error.setText("");
                 }
                 catch (Exception exp) {
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
@@ -220,7 +223,9 @@ public class Calculadora {
                     else{
                         error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
                     }
-                } catch (Exception exp) {
+                    error.setText("");
+                }
+                catch (Exception exp) {
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
@@ -257,7 +262,9 @@ public class Calculadora {
                     else{
                         error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
                     }
-                } catch (Exception exp) {
+                    error.setText("");
+                }
+                catch (Exception exp) {
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
