@@ -19,7 +19,7 @@ El botón de numero random, nos permite generar un numero al azar donde el usuar
 que se generara. Para la generación del numero se usa la función “Math” y el método random.
 
 ------------------------> MARCELO PINZÓN <br>
-Nota: **Todos los botnones que se describen abajo pueden verificar si uno o los 2 campos de entrada tienen valores ingresados y los opera adecuadamente, ademas, se manejan posibles excepciones que se generen en las ejecuciones de esos botones**
+Nota: **Todos los botones que se describen abajo pueden verificar si uno o los 2 campos de entrada tienen valores ingresados y los opera adecuadamente, ádemas, se manejan posibles excepciones que se generen en las ejecuciones de esos botones**
 
 PI <br>
 _El boton **Pi** permite obtener el valor del numero o numeros ingresados, multiplicado el numero por la constante PI de la clase **Math**, por ejemplo si se ingresa el 5, este botón retorara "5*Math.PI" como cadena formateada y lo ubica en el label **resultadoLbl**._
