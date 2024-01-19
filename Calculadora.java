@@ -111,6 +111,7 @@ public class Calculadora {
                 resultadoLbl.setText("El numero aleatorio que sea generado es: "+Double.toString(resultado_random));
             }
         });
+        
         boton_pi.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
