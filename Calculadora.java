@@ -114,16 +114,151 @@ public class Calculadora {
         boton_pi.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e){
-                int num1=Integer.parseInt(numero_uno_ingresado.getText());
-                int num2=Integer.parseInt(numero_dos_ingresado.getText());
-                
-                resultadoLbl.setText("Pi es:");
+                try {
+                    if (!numero_uno_ingresado.getText().isEmpty() && !numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double num2=Double.parseDouble(numero_dos_ingresado.getText());
+                        
+                        double pi1=num1*Math.PI;
+                        double pi2=num2*Math.PI;
+    
+                        String reslbl="Pi de %.2f: %.4f\nPi de %.2f: %.4f".formatted(num1, pi1, num2, pi2);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_uno_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+    
+                        double pi=num1*Math.PI;
+    
+                        String reslbl="Pi de %.2f: %.4f".formatted(num1, pi);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_dos_ingresado.getText());
+    
+                        double pi=num1*Math.PI;
+    
+                        String reslbl="Pi de %.2f: %.4f".formatted(num1, pi);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else{
+                        error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
+                    }
+                } catch (Exception exp) {
+                    error.setText("ERROR: Ingrese valores numericos antes de continuar!");
+                }
             }
         });
+
         boton_seno.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                double radianes=(Double.parseDouble(numero_uno_ingresado.getText())) * (3.14159265358/ 180); //Conversión de grados a Radianes
+                try {
+                    if (!numero_uno_ingresado.getText().isEmpty() && !numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double num2=Double.parseDouble(numero_dos_ingresado.getText());
+                        
+                        double senoNum1 = Math.sin(Math.toRadians(num1));
+                        double senoNum2 = Math.sin(Math.toRadians(num2)); 
+    
+                        String reslbl="Seno de %.2f: %.4f\nSeno de %.2f: %.4f".formatted(num1, senoNum1, num2, senoNum2);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_uno_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double senoNum1 = Math.sin(Math.toRadians(num1));
+    
+                        String reslbl="Seno de %.2f: %.4f".formatted(num1, senoNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_dos_ingresado.getText());
+                        double senoNum1 = Math.sin(Math.toRadians(num1));
+                        
+                        String reslbl="Seno de %.2f: %.4f".formatted(num1, senoNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else{
+                        error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
+                    }
+                }
+                catch (Exception exp) {
+                    error.setText("ERROR: Ingrese valores numericos antes de continuar!");
+                }
+            }
+        });
+
+        boton_coseno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    if (!numero_uno_ingresado.getText().isEmpty() && !numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double num2=Double.parseDouble(numero_dos_ingresado.getText());
+                        
+                        double cosenoNum1 = Math.cos(Math.toRadians(num1));
+                        double cosenoNum2 = Math.cos(Math.toRadians(num2)); 
+    
+                        String reslbl="Coseno de %.2f: %.4f\nCoseno de %.2f: %.4f".formatted(num1, cosenoNum1, num2, cosenoNum2);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_uno_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double cosenoNum1 = Math.sin(Math.toRadians(num1));
+    
+                        String reslbl="Coseno de %.2f: %.4f".formatted(num1, cosenoNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_dos_ingresado.getText());
+                        double cosenoNum1 = Math.sin(Math.toRadians(num1));
+                        
+                        String reslbl="Coseno de %.2f: %.4f".formatted(num1, cosenoNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else{
+                        error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
+                    }
+                } catch (Exception exp) {
+                    error.setText("ERROR: Ingrese valores numericos antes de continuar!");
+                }
+            }
+        });
+
+        boton_tangente.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    if (!numero_uno_ingresado.getText().isEmpty() && !numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double num2=Double.parseDouble(numero_dos_ingresado.getText());
+                        
+                        double tanNum1 = Math.tan(Math.toRadians(num1));
+                        double tanNum2 = Math.tan(Math.toRadians(num2)); 
+    
+                        String reslbl="Tangente de %.2f: %.4f\nTangente de %.2f: %.4f".formatted(num1, tanNum1, num2, tanNum2);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_uno_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_uno_ingresado.getText());
+                        double tanNum1 = Math.tan(Math.toRadians(num1));
+    
+                        String reslbl="Tangente de %.2f: %.4f".formatted(num1, tanNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else if (!numero_dos_ingresado.getText().isEmpty()){
+                        double num1=Double.parseDouble(numero_dos_ingresado.getText());
+                        double tanNum1 = Math.tan(Math.toRadians(num1));
+    
+                        String reslbl="Tangente de %.2f: %.4f".formatted(num1, tanNum1);
+                        resultadoLbl.setText(reslbl);
+                    }
+                    else{
+                        error.setText("ERROR: Ingrese un nnumero antes de usar esta funcion!");
+                    }
+                } catch (Exception exp) {
+                    error.setText("ERROR: Ingrese valores numericos antes de continuar!");
+                }
             }
         });
     }
