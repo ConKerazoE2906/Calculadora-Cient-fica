@@ -123,7 +123,7 @@ public class Calculadora {
                         double pi1=num1*Math.PI;
                         double pi2=num2*Math.PI;
     
-                        String reslbl="Pi de %.2f: %.4f\nPi de %.2f: %.4f".formatted(num1, pi1, num2, pi2);
+                        String reslbl="Pi de %.2f: %.4f, Pi de %.2f: %.4f".formatted(num1, pi1, num2, pi2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
@@ -162,7 +162,7 @@ public class Calculadora {
                         double senoNum1 = Math.sin(Math.toRadians(num1));
                         double senoNum2 = Math.sin(Math.toRadians(num2)); 
     
-                        String reslbl="Seno de %.2f: %.4f\nSeno de %.2f: %.4f".formatted(num1, senoNum1, num2, senoNum2);
+                        String reslbl="Seno de %.2f: %.4f, Seno de %.2f: %.4f".formatted(num1, senoNum1, num2, senoNum2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
@@ -200,7 +200,7 @@ public class Calculadora {
                         double cosenoNum1 = Math.cos(Math.toRadians(num1));
                         double cosenoNum2 = Math.cos(Math.toRadians(num2)); 
     
-                        String reslbl="Coseno de %.2f: %.4f\nCoseno de %.2f: %.4f".formatted(num1, cosenoNum1, num2, cosenoNum2);
+                        String reslbl="Coseno de %.2f: %.4f, Coseno de %.2f: %.4f".formatted(num1, cosenoNum1, num2, cosenoNum2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
@@ -237,7 +237,7 @@ public class Calculadora {
                         double tanNum1 = Math.tan(Math.toRadians(num1));
                         double tanNum2 = Math.tan(Math.toRadians(num2)); 
     
-                        String reslbl="Tangente de %.2f: %.4f\nTangente de %.2f: %.4f".formatted(num1, tanNum1, num2, tanNum2);
+                        String reslbl="Tangente de %.2f: %.4f, Tangente de %.2f: %.4f".formatted(num1, tanNum1, num2, tanNum2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
