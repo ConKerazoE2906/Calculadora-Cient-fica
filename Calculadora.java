@@ -149,6 +149,7 @@ public class Calculadora {
                     error.setText("");
                 }
                 catch (Exception exp) {
+                    resultadoLbl.setText("");
                     error.setText("ERROR: Ingrese valores numericos antes de continuar!");
                 }
             }
