@@ -30,5 +30,5 @@ _El boton **Seno** permite obtener el seno del numero o numeros ingresados convi
 COSENO <br>
 _El boton **Coseno** permite obtener el coseno del numero o numeros ingresados convirtiéndolos a radianes, se hace uso del metodo **cos** de la clase **Math**, por ejemplo, si se ingresa 26, este botón lo convertira a radianes para obtener el valor correcto em el metodo **cos**(Math.toRadians(26)) y retorna dicho valor como cadena formateada y lo ubica en el label **resultadoLbl**._
 
-Tangente <br>
+TANGENTE <br>
 _El boton **Tangente** permite obtener la tangente del numero o numeros ingresados convirtiéndolos a radianes, se hace uso del metodo **tan** de la clase **Math**, por ejemplo, si se ingresa 14, este botón lo convertira a radianes para obtener el valor correcto em el metodo **tan**(Math.toRadians(14)) y retorna dicho valor como cadena formateada y lo ubica en el label **resultadoLbl**._
