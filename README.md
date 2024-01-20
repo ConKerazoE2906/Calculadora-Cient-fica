@@ -22,7 +22,7 @@ que se generara. Para la generación del numero se usa la función “Math” y 
 Nota: **Todos los botones que se describen abajo pueden verificar si uno o los 2 campos de entrada tienen valores ingresados y los opera adecuadamente, ádemas, se manejan posibles excepciones que se generen en las ejecuciones de esos botones**
 
 PI <br>
-_El boton **Pi** permite obtener el valor del numero o numeros ingresados, multiplicado el numero por la constante PI de la clase **Math**, por ejemplo si se ingresa el 5, este botón retorara "5*Math.PI" como cadena formateada y lo ubica en el label **resultadoLbl**._
+_El boton **Pi** permite obtener el valor del numero o numeros ingresados, multiplicando el numero por la constante PI de la clase **Math**, por ejemplo si se ingresa el 5, este botón retorara "5*Math.PI" como cadena formateada y lo ubica en el label **resultadoLbl**._
 
  SENO <br>
 _El boton **Seno** permite obtener el seno del numero o numeros ingresados convirtiéndolos a radianes, se hace uso del metodo **sin** de la clase **Math**, por ejemplo, si se ingresa 32, este botón lo convertira a radianes para obtener el valor correcto en el metodo **sin**(Math.toRadians(32)) y retorna dicho valor como cadena formateada y lo ubica en el label **resultadoLbl**._
