@@ -34,8 +34,8 @@ public class Calculadora {
 
                 String r1;
 
-                resultadoLbl.setText("Resultado:" +Integer.toString( Integer.parseInt(numero_uno_ingresado.getText())
-                        +Integer.parseInt(numero_dos_ingresado.getText())));
+                resultadoLbl.setText("Resultado:" +Double.toString( Double.parseDouble(numero_uno_ingresado.getText())
+                        +Double.parseDouble(numero_dos_ingresado.getText())));
             }
         });
         Botonresta.addActionListener(new ActionListener() {
@@ -44,8 +44,8 @@ public class Calculadora {
 
                 String r2;
 
-                resultadoLbl.setText("Resultado: " + Integer.toString(Integer.parseInt(numero_uno_ingresado.getText())
-                        - Integer.parseInt(numero_dos_ingresado.getText())));
+                resultadoLbl.setText("Resultado: " + Double.toString(Double.parseDouble(numero_uno_ingresado.getText())
+                        - Double.parseDouble(numero_dos_ingresado.getText())));
             }
         });
         Botonmultiplicacion.addActionListener(new ActionListener() {
@@ -54,8 +54,8 @@ public class Calculadora {
 
                 String r3;
 
-                resultadoLbl.setText("Resultado: " + Integer.toString(Integer.parseInt(numero_uno_ingresado.getText())
-                        * Integer.parseInt(numero_dos_ingresado.getText())));
+                resultadoLbl.setText("Resultado: " + Double.toString(Double.parseDouble(numero_uno_ingresado.getText())
+                        * Double.parseDouble(numero_dos_ingresado.getText())));
             }
         });
         Botondivision.addActionListener(new ActionListener() {
@@ -65,8 +65,8 @@ public class Calculadora {
                 String r4;
 
                 try{
-                    resultadoLbl.setText("Resultado: " + Integer.toString(Integer.parseInt(numero_uno_ingresado.getText())
-                            / Integer.parseInt(numero_dos_ingresado.getText())));
+                    resultadoLbl.setText("Resultado: " + Double.toString(Double.parseDouble(numero_uno_ingresado.getText())
+                            / Double.parseDouble(numero_dos_ingresado.getText())));
                 } catch (Exception ex){
                     Botondivision.setText("No se puede dividir para 0");
                 }
