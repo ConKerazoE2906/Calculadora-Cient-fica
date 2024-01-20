@@ -123,7 +123,7 @@ public class Calculadora {
                         double pi1=num1*Math.PI;
                         double pi2=num2*Math.PI;
     
-                        String reslbl="Pi de %.2f: %.4f, Pi de %.2f: %.4f".formatted(num1, pi1, num2, pi2);
+                        String reslbl="Pi x %.2f: %.4f, Pi x %.2f: %.4f".formatted(num1, pi1, num2, pi2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
@@ -131,7 +131,7 @@ public class Calculadora {
     
                         double pi=num1*Math.PI;
     
-                        String reslbl="Pi de %.2f: %.4f".formatted(num1, pi);
+                        String reslbl="Pi x %.2f: %.4f".formatted(num1, pi);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_dos_ingresado.getText().isEmpty()){
@@ -139,7 +139,7 @@ public class Calculadora {
     
                         double pi=num1*Math.PI;
     
-                        String reslbl="Pi de %.2f: %.4f".formatted(num1, pi);
+                        String reslbl="Pi x %.2f: %.4f".formatted(num1, pi);
                         resultadoLbl.setText(reslbl);
                     }
                     else{
