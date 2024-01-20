@@ -119,11 +119,11 @@ public class Calculadora {
                     if (!numero_uno_ingresado.getText().isEmpty() && !numero_dos_ingresado.getText().isEmpty()){
                         double num1=Double.parseDouble(numero_uno_ingresado.getText());
                         double num2=Double.parseDouble(numero_dos_ingresado.getText());
-                        
+
                         double pi1=num1*Math.PI;
                         double pi2=num2*Math.PI;
     
-                        String reslbl="Pi x %.2f: %.4f, Pi x %.2f: %.4f".formatted(num1, pi1, num2, pi2);
+                        String reslbl="π x %.2f: %.4f, π x %.2f: %.4f".formatted(num1, pi1, num2, pi2);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_uno_ingresado.getText().isEmpty()){
@@ -131,7 +131,7 @@ public class Calculadora {
     
                         double pi=num1*Math.PI;
     
-                        String reslbl="Pi x %.2f: %.4f".formatted(num1, pi);
+                        String reslbl="π x %.2f: %.4f".formatted(num1, pi);
                         resultadoLbl.setText(reslbl);
                     }
                     else if (!numero_dos_ingresado.getText().isEmpty()){
@@ -139,7 +139,7 @@ public class Calculadora {
     
                         double pi=num1*Math.PI;
     
-                        String reslbl="Pi x %.2f: %.4f".formatted(num1, pi);
+                        String reslbl="π x %.2f: %.4f".formatted(num1, pi);
                         resultadoLbl.setText(reslbl);
                     }
                     else{

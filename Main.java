@@ -8,7 +8,5 @@ public class Main {
         frame.setSize(800,640);
         frame.setVisible(true);
         frame.pack();
-
-
     }
 }
