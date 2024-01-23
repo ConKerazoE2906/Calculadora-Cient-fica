@@ -108,8 +108,8 @@ public class Calculadora {
             public void actionPerformed(ActionEvent e) {
                 int n_uno=Integer.parseInt(numero_uno_ingresado.getText());
                 int n_dos=Integer.parseInt(numero_dos_ingresado.getText());
-                double resultado_random=Math.random()*(n_dos-n_uno)+n_uno;
-                resultadoLbl.setText("El numero aleatorio que sea generado es: "+Double.toString(resultado_random));
+                int resultado_random= (int) (Math.random()*(n_dos-n_uno)+n_uno);
+                resultadoLbl.setText("El numero aleatorio que sea generado es: "+Integer.toString(resultado_random));
             }
         });
         
