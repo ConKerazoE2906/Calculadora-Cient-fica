@@ -66,10 +66,13 @@ public class Calculadora {
                 String r4;
 
                 try{
+                    if (Double.parseDouble(numero_dos_ingresado.getText())==0){
+                        throw new Exception("No se puede dividir para 0");
+                    }
                     resultadoLbl.setText("Resultado: " + Double.toString(Double.parseDouble(numero_uno_ingresado.getText())
                             / Double.parseDouble(numero_dos_ingresado.getText())));
                 } catch (Exception ex){
-                    Botondivision.setText("No se puede dividir para 0");
+                    resultadoLbl.setText("No se puede dividir para 0");
                 }
 
             }
