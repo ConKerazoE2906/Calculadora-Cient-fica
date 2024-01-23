@@ -274,5 +274,89 @@ public class Calculadora {
                 }
             }
         });
+        Logaritmo_Doble.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    int base1 = Integer.parseInt(numero_uno_ingresado.getText());
+                    int base2 = Integer.parseInt(numero_dos_ingresado.getText());
+
+                    // Calcula el logaritmo doble (en base 2) para la primera base
+                    double resultado1 = Math.log(base1) / Math.log(2);
+                    // Calcula el logaritmo doble (en base 2) para la segunda base
+                    double resultado2 = Math.log(base2) / Math.log(2);
+
+                    resultadoLbl.setText("El logaritmo doble de " + base1 + " es: " + resultado1 + "\n" +
+                            "El logaritmo doble de " + base2 + " es: " + resultado2);
+                } catch (NumberFormatException ex) {
+                    resultadoLbl.setText("Error: Ingresa números válidos");
+                }
+            }
+        });
+
+
+        Logaritmo_Natural.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    // Obtiene los números ingresados desde los JTextFields
+                    double numero1 = Double.parseDouble(numero_uno_ingresado.getText());
+                    double numero2 = Double.parseDouble(numero_dos_ingresado.getText());
+
+                    // Calcula los logaritmos naturales
+                    double resultado1 = Math.log(numero1);
+                    double resultado2 = Math.log(numero2);
+
+                    // Muestra ambos resultados
+                    resultadoLbl.setText("El logaritmo natural de " + numero1 + " es: " + resultado1 + "\n" +
+                            "El logaritmo natural de " + numero2 + " es: " + resultado2);
+                } catch (NumberFormatException ex) {
+                    resultadoLbl.setText("Error: Ingresa un número válido");
+                }
+            }
+        });
+
+
+        Logaritmo_Cualquier_Base.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    // Obtiene la base y el número ingresados desde los JTextFields
+                    double base = Double.parseDouble(numero_uno_ingresado.getText());
+                    double numero = Double.parseDouble(numero_dos_ingresado.getText());
+
+                    // Calcula el logaritmo en base a cualquier base
+                    double resultado = Math.log(numero) / Math.log(base);
+
+                    // Muestra el resultado
+                    resultadoLbl.setText("El logaritmo en base " + base + " de " + numero + " es: " + resultado);
+                } catch (NumberFormatException ex) {
+                    resultadoLbl.setText("Error: Ingresa números válidos");
+                } catch (ArithmeticException ex) {
+                    resultadoLbl.setText("Error: La base no puede ser 1");
+                }
+            }
+        });
+
+        Logaritmo_Comun.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    // Obtiene los números ingresados desde los JTextFields
+                    double numero1 = Double.parseDouble(numero_uno_ingresado.getText());
+                    double numero2 = Double.parseDouble(numero_dos_ingresado.getText());
+
+                    // Calcula el logaritmo común (en base 10) para ambos números
+                    double resultado1 = Math.log10(numero1);
+                    double resultado2 = Math.log10(numero2);
+
+                    // Muestra ambos resultados
+                    resultadoLbl.setText("El logaritmo común de " + numero1 + " es: " + resultado1 + "\n" +
+                            "El logaritmo común de " + numero2 + " es: " + resultado2);
+                } catch (NumberFormatException ex) {
+                    resultadoLbl.setText("Error: Ingresa números válidos");
+                }
+            }
+        });
     }
 }
