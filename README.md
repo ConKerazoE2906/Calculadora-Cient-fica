@@ -45,3 +45,13 @@ logb(x), se refiere al logaritmo con una base arbitraria b, donde x es el númer
 
 -Logaritmo doble (base 2):
 log2(x), calcula a que exponente debe elevarse 2 para obtener el número dado. Ejemplo log2(8)=3, ya que 2elevador a 3=2
+
+-------------------------> Emilio Erazo
+Suma (+)
+n + n, Calcula la suma de dos números enteros o decimales. Ejemplo 256 + 24.3 = 280.3
+Resta (-)
+n - n, Calcula la resta de dos números enteros o decimales. Ejemplo 256.32 - 250.12 = 6.20
+Multiplicación (*)
+n * n, Calcula la multiplicación de dos números enteros o decimales. Ejemplo 256.3 * 2 = 512.6
+División (/)
+n / n, Calcula la división de dos números enteros o decimales. Ejemplo  857967 / 3 = 285989
