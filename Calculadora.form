@@ -93,28 +93,28 @@
           <text value="/"/>
         </properties>
       </component>
-      <component id="43b15" class="javax.swing.JButton" binding="button5" default-binding="true">
+      <component id="43b15" class="javax.swing.JButton" binding="Logaritmo_Doble">
         <constraints>
           <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="log2(x)"/>
         </properties>
       </component>
-      <component id="10ba1" class="javax.swing.JButton" binding="button6" default-binding="true">
+      <component id="10ba1" class="javax.swing.JButton" binding="Logaritmo_Natural">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="ln(x)"/>
         </properties>
       </component>
-      <component id="c7d91" class="javax.swing.JButton" binding="button8" default-binding="true">
+      <component id="c7d91" class="javax.swing.JButton" binding="Logaritmo_Cualquier_Base">
         <constraints>
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="ln(x)/ln(b)"/>
         </properties>
       </component>
       <component id="2cda7" class="javax.swing.JButton" binding="boton_tangente">
@@ -133,12 +133,12 @@
           <text value="pi"/>
         </properties>
       </component>
-      <component id="e3838" class="javax.swing.JButton">
+      <component id="e3838" class="javax.swing.JButton" binding="Logaritmo_Comun">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Log10(x)"/>
         </properties>
       </component>
       <component id="af7bd" class="javax.swing.JButton" binding="boton_potencia">

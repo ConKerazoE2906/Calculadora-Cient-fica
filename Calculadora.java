@@ -5,13 +5,13 @@ import java.awt.event.ActionListener;
 public class Calculadora {
     private JButton Botonresta;
     private JButton boton_seno;
-    private JButton button5;
+    private JButton Logaritmo_Doble;
     private JButton boton_coseno;
     private JButton Botonsuma;
     private JButton Botonmultiplicacion;
     private JButton Botondivision;
-    private JButton button6;
-    private JButton button8;
+    private JButton Logaritmo_Natural;
+    private JButton Logaritmo_Cualquier_Base;
     private JButton boton_tangente;
     private JButton boton_pi;
     JPanel menuPrincipal;
@@ -25,6 +25,7 @@ public class Calculadora {
     private JButton boton_potencia;
     private JButton boton_porcentaje;
     private JButton boton_random;
+    private JButton Logaritmo_Comun;
 
 
     public Calculadora() {
